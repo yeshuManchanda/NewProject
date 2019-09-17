@@ -35,6 +35,7 @@ public class BaseClass {
 		report.attachReporter(extent);
 	}
 
+	//Browser setup 
 	@BeforeClass
 	public void setup() {
 		driver = BrowserFactory.startApplication(driver, config.getBrowser(), config.getQAURL());
